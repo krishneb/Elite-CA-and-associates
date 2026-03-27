@@ -1,0 +1,5 @@
+{
+  "name": "Elite CA & Associates",
+  "description": "Premium Chartered Accountant firm providing expert taxation, audit, and corporate advisory services with a modern, trust-driven approach.",
+  "requestFramePermissions": ["geolocation"]
+}
