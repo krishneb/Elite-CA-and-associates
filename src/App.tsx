@@ -5,32 +5,7 @@
 
 import React, { useState, useEffect, useRef, Component } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring, useInView } from 'motion/react';
-import { 
-  Shield, 
-  Scale, 
-  Briefcase, 
-  FileText, 
-  CheckCircle2, 
-  Users, 
-  Calendar, 
-  ArrowRight, 
-  Phone, 
-  Mail, 
-  MapPin, 
-  Menu, 
-  X, 
-  Star, 
-  TrendingUp,
-  Clock,
-  Facebook,
-  Twitter,
-  Linkedin,
-  Instagram,
-  ChevronRight,
-  MessageSquare,
-  Award,
-  ExternalLink
-} from 'lucide-react';
+import { Shield, Scale, Briefcase, FileText, CircleCheck as CheckCircle2, Users, Calendar, ArrowRight, Phone, Mail, MapPin, Menu, X, Star, TrendingUp, Clock, Facebook, Twitter, Linkedin, Instagram, ChevronRight, MessageSquare, Award, ExternalLink } from 'lucide-react';
 import { cn } from './lib/utils';
 import { Lead, Article, ComplianceDeadline, Testimonial, Stat } from './types';
 
@@ -285,9 +260,9 @@ const About = () => {
               viewport={{ once: true }}
               className="relative z-10"
             >
-              <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800" 
-                alt="Rajesh Kumar" 
+              <img
+                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Kumar Mangalam Birla"
                 className="rounded-3xl shadow-2xl w-full object-cover aspect-[4/5]"
               />
             </motion.div>
@@ -305,7 +280,7 @@ const About = () => {
               A Legacy of Trust and Financial Excellence Since 2008
             </h3>
             <p className="text-slate-600 mb-8 leading-relaxed">
-              Founded by CA Rajesh Kumar, Elite CA & Associates has grown from a small consultancy to one of the region's most respected firms. We combine traditional values with modern technology to provide unparalleled financial guidance.
+              Founded by CA Kumar Mangalam Birla, Elite CA & Associates has grown from a small consultancy to one of the region's most respected firms. We combine traditional values with modern technology to provide unparalleled financial guidance.
             </p>
 
             <div className="space-y-6 mb-10">
@@ -328,14 +303,14 @@ const About = () => {
 
             <div className="flex items-center gap-6 p-6 bg-slate-50 rounded-2xl border border-slate-100">
               <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-white shadow-md">
-                <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400" 
-                  alt="Rajesh Kumar" 
+                <img
+                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="Kumar Mangalam Birla"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div>
-                <div className="font-bold text-slate-900 text-lg">Rajesh Kumar</div>
+                <div className="font-bold text-slate-900 text-lg">Kumar Mangalam Birla</div>
                 <div className="text-slate-500 text-sm">Founder & Managing Partner</div>
               </div>
             </div>
@@ -547,7 +522,7 @@ const Testimonials = () => {
       id: "2",
       name: "Priya Patel",
       profession: "Founder, GreenEarth Retail",
-      content: "As a startup, we were lost in GST compliance. Rajesh and his team simplified everything for us. They are not just accountants, but true business partners.",
+      content: "As a startup, we were lost in GST compliance. Kumar Mangalam Birla and his team simplified everything for us. They are not just accountants, but true business partners.",
       rating: 5
     },
     {
@@ -607,7 +582,7 @@ const Insights = () => {
       title: "New GST Changes for 2026: What You Need to Know",
       excerpt: "The latest council meeting has proposed significant changes to GST rates and compliance procedures...",
       category: "GST Updates",
-      author: "CA Rajesh Kumar",
+      author: "CA Kumar Mangalam Birla",
       publishedAt: "2026-03-20",
       imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800",
       content: ""
@@ -625,7 +600,7 @@ const Insights = () => {
       title: "The Future of Digital Auditing and AI in Accounting",
       excerpt: "How artificial intelligence is transforming the way we conduct statutory audits and financial analysis...",
       category: "Insights",
-      author: "CA Rajesh Kumar",
+      author: "CA Kumar Mangalam Birla",
       publishedAt: "2026-03-10",
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
       content: ""
